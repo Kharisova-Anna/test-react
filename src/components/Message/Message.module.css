@@ -1,0 +1,11 @@
+.icon {
+  width: 35px;
+  height: 35px;
+  transition: all .4s ease;
+  &:hover {
+    width: 45px;
+    height: 45px;
+    color: gold;
+    transform: rotate(180deg);
+  }
+}

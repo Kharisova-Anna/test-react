@@ -1,8 +1,13 @@
-import Modal from "./components/Modal/Modal"
-import Message from "./components/Message/Message"
+import Modal from "./Modal/Modal";
+import Message from "./Message/Message";
+import Header from "./Header/Header";
+import '../index.css';
+
+
 const App = () => {
   return (
     <div>
+      <Header />
       <Modal title='Children how it works'>
           <h2>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non id eaque assumenda cum ex asperiores ipsum ullam, in magni, numquam, deserunt

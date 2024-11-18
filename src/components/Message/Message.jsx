@@ -1,9 +1,10 @@
-
+import { FcApproval } from "react-icons/fc";
+import s from "./Message.module.css"
 
 const Message = ({ author = 'Default author', text }) => {
   return (
     <div>
-      <h4>{text}</h4>
+      <h4>{text} <FcApproval className={s.icon} /></h4>
       <span>{author}</span>
     </div>
   );
